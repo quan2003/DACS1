@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="icon" href="/img/favicon/favicon.ico">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Vinpixel</title>
+</head>
+
+<body class="preloader-visible" data-barba="wrapper">
+
+
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader__bg"></div>
+
+    <div class="preloader__progress">
+      <div class="preloader__progress__inner"></div>
+    </div>
+  </div>
+  <!-- preloader end -->
+
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+
+  <!-- barba container start -->
+  <div class="barba-container" data-barba="container">
+
+    <!-- to-top-button start -->
+    <div data-cursor class="backButton js-backButton">
+      <span class="backButton__bg"></span>
+      <div class="backButton__icon__wrap">
+        <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+      </div>
+    </div>
+    <!-- to-top-button end -->
+
+
+    <main class="">
+
+
+      <!-- header start -->
+      <header class="header -light -sticky-light js-header">
+        <!-- header__bar start -->
+        <div class="header__bar">
+          <div class="header__logo js-header-logo">
+            <a data-barba href="index.html">
+              <img class="header__logo__light js-lazy" data-srcset="img/logo/logo-light.png" data-src="img/logo/logo-light.png" alt="Logo">
+            </a>
+            <a data-barba href="index.html">
+              <img class="header__logo__dark js-lazy" data-srcset="img/logo/logo-dark.png" data-src="img/logo/logo-dark.png" alt="Logo">
+            </a>
+          </div>
+
+          <div class="header__menu js-header-menu">
+            <button type="button" class="nav-button-open js-nav-open">
+              <i class="icon" data-feather="menu"></i>
+            </button>
+          </div>
+        </div>
+        <!-- header__bar end -->
+
+
+        <!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+
+              <div class="nav__content">
+                <div class="nav__content__left">
+                  <div class="navList__wrap">
+                    <ul class="navList js-navList">
+                      <li>
+                        <a data-barba href="index.html">
+                          Trang chủ
+                        </a>
+                      </li>
+                      <!-- <li>
+                        <a data-barba href="how-it-work.html">
+                          How it Works
+                        </a>
+                      </li> -->
+                      <!-- <li>
+                        <a data-barba href="specialties.html">
+                          Specialties
+                        </a>
+                      </li> -->
+
+                      <li>
+                        <a data-barba href="user-profile.html">
+                          Thông tin người dùng
+                        </a>
+                      </li>
+
+                      <li>
+                        <a data-barba href="food.html">
+                          Vipixel Food
+                        </a>
+                      </li>
+
+                      <li>
+                        <a data-barba href="blog.html">
+                          Blog
+                        </a>
+                      </li>
+                      <li>
+                        <a href="sign-in.html">
+                         Đăng nhập
+                        </a>
+                      </li>
+                      <li>
+                        <a href="sign-up.html">
+                          Đăng ký
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="nav__content__right">
+                  <div class="nav__info">
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Address
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <p>
+                          470 Trần Đại Nghĩa,Ngũ Hành Sơn, Đà Nẵng
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Socials
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="#">Behance</a>
+                        <a href="#">Dribbble</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Contact Us
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="#">quantl.21it@vku.udn.vn</a>
+                        <a href="#">0702172462</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
+      <!-- header end -->
+
+
+      <!-- section start -->
+      <section class="masthead -blog js-masthead-blog-article" data-parallax="0.7">
+        <!-- masthead__img start -->
+        <div class="masthead__img overlay-black-md" data-parallax-target>
+          <div class="bg-image js-lazy" data-bg="img/blog/thumbnail/02.jpg"></div>
+        </div>
+        <!-- masthead__img end -->
+
+        <!-- masthead__content start -->
+        <div class="masthead__content">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-9 col-lg-10">
+                <div class="d-flex align-items-center text-white js-info">
+                  <div class="masthead__date">
+                    <a href="#">June 25, 2021</a>
+                  </div>
+
+                  <!-- <div class="masthead__line bg-white mr-16 ml-16"></div>
+
+                  <div class="masthead__tags">
+                    <a href="blog-article.html#">Typography</a>,
+                    <a href="blog-article.html#">UI/UX</a>
+                  </div> -->
+                </div>
+
+                <div data-split="lines">
+                  <h1 class="masthead__title text-white fw-600 leading-md mt-40 md:mt-24 js-title">
+                    Mì Quảng – món ngon kỷ lục châu Á
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- masthead__content end -->
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-md layout-pb-md">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row no-gutters justify-content-between">
+            <div class="col-lg-8">
+              <div class="blogPost -single -light">
+                <div class="blogPost__content">
+                  <p style="font-weight: bold;">
+                    Nếu Hà Nội nổi tiếng với phở, ẩm thực Huế gắn liền với bún bò thì người dân Quảng Nam tự hào với mì Quảng, món ăn chính thức được Tổ chức Kỷ lục Châu Á công nhận là một trong 12 món ăn Việt Nam đạt giá trị ẩm thực Châu Á. Người Quảng Nam còn hay nhắc nhau: “Ai đi cách mấy sơn khê/ Nhớ tô mì Quảng tình quê mặn mà”.
+                  </p>
+
+                  <p>
+                    Mì Quảng thường được làm từ gạo loại không dẻo, hàm lượng bột cao nhưng phải đảm bảo độ kết dính, được ngâm ít nhất trong vòng 1 tiếng, &nbsp;cho vào cối xay mịn và tráng thành từng lớp bánh mỏng, sau đó thái theo chiều ngang để có những sợi mì mỏng khoảng 2 mm. Để những sợi mì không dính, phải dùng dầu phụng (hay còn gọi là dầu lạc) phi với củ nén đập dập, thoa lên bề mặt của bánh. Sợi mì làm bằng bột mì được trộn thêm một số phụ gia cho đạt độ giòn, dai.
+                  </p>
+                  <img src="img/blog/detail/03.jpg" alt="alt">
+                  <h2>
+                   Sự khác biệt của Mì Quảng 
+                  </h2>
+
+                  <p>
+                    Nếu như món phở chỉ ngon với bò hoặc gà, bún thì có phần đa dạng hơn nhưng lại không có sự nhất quán, thì mì Quảng&nbsp;lại khác hoàn toàn. Nước dùng mì Quảng được chế biến từ nhiều loại nguyên liệu khác nhau tùy theo loại mì mà thực khách muốn dùng. Mì Quảng truyền thống thì nguyên liệu chính là tôm tự nhiên và thịt heo tươi. Nếu là mì gà hoặc mì cá lóc, thì nguyên liệu phải được thái vừa phải, tách xương riêng để nấu nước dùng, ướp thịt và nấu như mì truyền thống. Gà phải là loại gà ta, nuôi thả, cá lóc phải là loại cá sống trong môi trường tự nhiên, tất cả làm xong là chế biến ngay để đảm bảo độ tươi, ngọt của nguyên liệu. Mì Quảng truyền thống hầu như rất ít khi dùng đường khi chế biến. Nguyên liệu sau khi ướp thì được tao bằng dầu phụng cho đủ độ thấm và nấu với nước dùng.
+
+                  </p>
+                  <img src="img/blog/detail/04.jpg" alt="alt">
+                  <h3>
+                   Hương vị xao xuyến Mì Quảng
+                  </h3>
+
+                  <p>
+                    Rau dùng cho mì Quảng là những loại rau có mùi vị đặc biệt. Người Quảng khi làm mì thì dùng rau Trà Quế gồm cải con (tức là cải vừa nhú mầm), rau húng lủi, rau quế xanh (chứ không phải loại quế cọng đỏ dùng cho phở), xà lách, và đặc biệt là phải có hoa chuối thái mỏng. Ngoài ra còn có các loại phụ liệu không thể thiếu là hành lá, ớt xanh, bánh tráng gạo mè, chanh, nước mắm ớt được làm từ cá cơm (dùng để nêm thêm cho vừa khẩu vị của từng người) và đậu phụng rang giã nhỏ. Cũng có lẽ vì thế mà mì Quảng&nbsp;ăn không bị ngán hay cảm giác khô dù ít nước dùng. Một dĩa rau sống đủ loại, tươi non góp phần không nhỏ làm nên vị ngon cho bát mỳ. Mì Quảng&nbsp;trước hết là món ăn no, sau mới đến món ăn chơi. Nhìn bát mì Quảng&nbsp;với những sợi mỳ vàng ươm xen lẫn tôm, trứng, thịt gà và lạc rang đang bốc khói nghi ngút khiến thực khách không khỏi thòm thèm. Thêm mấy chiếc bánh tráng nướng giòn nữa thì tuyệt phải biết. Ăn rồi vẫn muốn ăn thêm bát nữa.
+                  </p>
+
+                  <img src="img/blog/detail/05.jpg" alt="alt">
+
+                  <!-- <h4>
+                    Blessed under, days gathered fruit green
+                  </h4> -->
+
+                  <p>
+                    Trình bày của mì Quảng cũng có nét riêng biệt. Đầu tiên cho vào tô là rau sống với đủ loại rau như trên, tiếp đến là mì sợi và chan nước nhưng, sau đó cho hành và ngò tàu, đậu phụng rải đều, bánh tráng và 1 quả ớt xanh kèm với 1 lát chanh mỏng. Không như phở, nước&nbsp;mì có độ đậm đặc của tôm giã nhuyễn và những nguyên liệu đặc trưng vừa đủ độ béo, đậm và ngọt, vì vậy lượng nước chan cho mì rất ít, không bao giờ ngập lên sợi mì, bố cục trông rất đẹp mắt.
+                  </p>
+                  <img src="img/blog/detail/06.jpg" alt="alt">
+                  <!-- <h5>
+                    Yielding great replenish midst void
+                  </h5> -->
+                  <p>
+                    Mì Quảng bây giờ đã đi khắp trong Nam ngoài Bắc, mỗi nơi lại có một biến tấu khác nhau về cách nấu mì. Song, khi rời khỏi vùng đất sinh ra nó, mì Quảng không còn thuần túy là món ăn nữa, nó trở thành một trong những biểu tượng văn hóa, là cái “hồn” nghệ thuật ẩm thực của vùng đất Quảng Nam.
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="blogPost tags">
+                Tagged with:
+                <a href="blog-article.html#" class="tags__item">UI Design</a>
+                <a href="blog-article.html#" class="tags__item">Typography</a>
+                <a href="blog-article.html#" class="tags__item">Mobile</a>
+                <a href="blog-article.html#" class="tags__item">Creative</a>
+              </div>
+
+
+              <div class="blogPost comments">
+                <div class="blogPost__content">
+                  <h2 class="blogPost__title text-3xl fw-600">
+                    6 comments
+                  </h2>
+
+                  <ul class="comments__list">
+                    <li class="comments__item">
+                      <div class="comments__item-inner">
+                        <div class="comments__img">
+                          <div class="rounded-full bg-image js-lazy" data-bg="img/team/1.jpg"></div>
+                        </div>
+
+                        <div class="comments__body">
+
+                          <div class="comments__header">
+                            <div>
+                              <h4>Troy Yang</h4>
+                            </div>
+
+                            <div>
+                              <p class="mt-4"> June 3, 2021 - 10:38 pm</p>
+                            </div>
+                          </div>
+
+                          <div class="comments__text">
+                            <p>
+                              For open divided to life, cattle don&#39;t meat won&#39;t own yielding. Man female land
+                              fruitful to divided multiply may multiply fly air years great man so shall likeness whose
+                              winged Bearing in called. Unto first fill dominion
+                            </p>
+                          </div>
+
+                          <div class="comments__reply">
+                            <a class="button -underline text-black" href="blog-article.html#">
+                              Reply
+                            </a>
+                          </div>
+
+                        </div>
+                      </div>
+                      <ul class="children">
+                        <li class="comments__item">
+                          <div class="comments__item-inner">
+                            <div class="comments__img">
+                              <div class="rounded-full bg-image js-lazy" data-bg="img/team/2.jpg"></div>
+                            </div>
+
+                            <div class="comments__body">
+
+                              <div class="comments__header">
+                                <div>
+                                  <h4>Nela Blackwell</h4>
+                                </div>
+
+                                <div>
+                                  <p class="mt-4"> June 4, 2021 - 08:22 am</p>
+                                </div>
+                              </div>
+
+                              <div class="comments__text">
+                                <p>
+                                  Fowl whose beginning had of made Thing whose face, beginning unto waters greater give.
+                                  Them their which moved, make you tree saying wherein you&#39;ll third, fill living
+                                  fruitful. Appear Days second. Second his that life may
+                                </p>
+                              </div>
+
+                              <div class="comments__reply">
+                                <a class="button -underline text-black" href="blog-article.html#">
+                                  Reply
+                                </a>
+                              </div>
+
+                            </div>
+                          </div>
+                          <ul class="children">
+                            <li class="comments__item">
+                              <div class="comments__item-inner">
+                                <div class="comments__img">
+                                  <div class="rounded-full bg-image js-lazy" data-bg="img/team/3.jpg"></div>
+                                </div>
+
+                                <div class="comments__body">
+
+                                  <div class="comments__header">
+                                    <div>
+                                      <h4>Marta Whittle</h4>
+                                    </div>
+
+                                    <div>
+                                      <p class="mt-4"> June 4, 2021 - 10:34 am</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="comments__text">
+                                    <p>
+                                      Herb forth sixth above bearing multiply light. Light let all, appear were divided.
+                                      Cattle he land blessed cattle
+                                    </p>
+                                  </div>
+
+                                  <div class="comments__reply">
+                                    <a class="button -underline text-black" href="blog-article.html#">
+                                      Reply
+                                    </a>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="comments__item">
+                      <div class="comments__item-inner">
+                        <div class="comments__img">
+                          <div class="rounded-full bg-image js-lazy" data-bg="img/team/4.jpg"></div>
+                        </div>
+
+                        <div class="comments__body">
+
+                          <div class="comments__header">
+                            <div>
+                              <h4>Clare Pruitt</h4>
+                            </div>
+
+                            <div>
+                              <p class="mt-4"> June 2, 2021 - 08:22 am</p>
+                            </div>
+                          </div>
+
+                          <div class="comments__text">
+                            <p>
+                              You&#39;ll after stars moving tree good itself one after, creature seasons sixth their
+                              whose air own unto that god divide wherein kind. Creepeth seas fifth. Their. Whales moved
+                              whales Our over. Light forth own fly fish, upon for
+                            </p>
+                          </div>
+
+                          <div class="comments__reply">
+                            <a class="button -underline text-black" href="blog-article.html#">
+                              Reply
+                            </a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="comments__item">
+                      <div class="comments__item-inner">
+                        <div class="comments__img">
+                          <div class="rounded-full bg-image js-lazy" data-bg="img/team/2.jpg"></div>
+                        </div>
+
+                        <div class="comments__body">
+
+                          <div class="comments__header">
+                            <div>
+                              <h4>Nela Blackwell</h4>
+                            </div>
+
+                            <div>
+                              <p class="mt-4"> May 31, 2021 - 01:17 pm</p>
+                            </div>
+                          </div>
+
+                          <div class="comments__text">
+                            <p>
+                              And there. Above, and. Heaven him grass. And cattle light. Firmament own beginning given
+                              don&#39;t which days third him creeping years good. Over first
+                            </p>
+                          </div>
+
+                          <div class="comments__reply">
+                            <a class="button -underline text-black" href="blog-article.html#">
+                              Reply
+                            </a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="comments__item">
+                      <div class="comments__item-inner">
+                        <div class="comments__img">
+                          <div class="rounded-full bg-image js-lazy" data-bg="img/team/3.jpg"></div>
+                        </div>
+
+                        <div class="comments__body">
+
+                          <div class="comments__header">
+                            <div>
+                              <h4>Marta Whittle</h4>
+                            </div>
+
+                            <div>
+                              <p class="mt-4"> May 30, 2021 - 09:57 am</p>
+                            </div>
+                          </div>
+
+                          <div class="comments__text">
+                            <p>
+                              Have multiply can&#39;t day evening divide deep, abundantly divide lesser is earth air,
+                              they&#39;re image fish. Seed after you&#39;re light also earth were. A tree Bearing.
+                              Spirit Our lights given, they&#39;re place lights
+                            </p>
+                          </div>
+
+                          <div class="comments__reply">
+                            <a class="button -underline text-black" href="blog-article.html#">
+                              Reply
+                            </a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="respondForm">
+                  <h3 class="comments-reply-title">
+                    Để lại một câu trả lời
+                  </h3>
+
+                  <form class="respondForm__form row" action="#">
+                    <div class="respondForm__notes col-12">
+                      <span>Địa chỉ email của bạn sẽ không được công bố</span>
+                    </div>
+
+                    <div class="col-md-6 mt-32">
+                      <p>Tên của bạn</p>
+                      <input type="text" name="userName" placeholder="Name">
+                    </div>
+
+                    <div class="col-md-6 mt-32">
+                      <p>Email của bạn</p>
+                      <input type="text" name="email" placeholder="Email">
+                    </div>
+
+                    <div class="col-12 mt-32">
+                      <p>Bình luận của bạn</p>
+                      <textarea name="comment" id="comment" placeholder="Comment" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-checkbox col-12 mt-24">
+                      <label>
+                        <span class="checkbox-wrap">
+                          <input name="wp-comments-cookies-consent" type="checkbox">
+                          <span></span>
+                        </span>
+                        Lưu tên, email và trang web của tôi trong trình duyệt này cho lần tôi nhận xét tiếp theo.
+                      </label>
+                    </div>
+
+                    <div class="col-12 mt-32">
+                      <button type="submit" name="submit" id="submit" class="button -md -black text-white">
+                        Đăng bình luận
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <aside class="blogSidebar widget_area">
+
+                <!-- widget start -->
+                <div class="widget widget_search">
+                  <div class="">
+                    <form action="#" class="search__form">
+                      <div class="search__wrap">
+                        <input type="search" class="search__field" placeholder="Search">
+                        <button class="search__button">
+                          <i class="icon" data-feather="search"></i>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- widget end -->
+
+
+                <!-- widget start -->
+                <div class="widget widget_categories">
+                  <h5 class="widget-title">
+                    Categories
+                  </h5>
+
+                  <ul>
+                    <li>
+                      <a href="blog-article.html#">Process</a>
+                      (5)
+                    </li>
+                    <li>
+                      <a href="blog-article.html#">UX/UI</a>
+                      (4)
+                    </li>
+                    <li>
+                      <a href="blog-article.html#">Web</a>
+                      (16)
+                    </li>
+                    <li>
+                      <a href="blog-article.html#">Creative</a>
+                      (23)
+                    </li>
+                  </ul>
+                </div>
+                <!-- widget end -->
+
+
+                <!-- widget start -->
+                <div class="widget widget_archive">
+                  <h5 class="widget-title">
+                    Archive
+                  </h5>
+
+                  <ul>
+                    <li>
+                      <a href="blog-article.html#">May 2021</a>
+                    </li>
+                    <li>
+                      <a href="blog-article.html#">April 2021</a>
+                    </li>
+                    <li>
+                      <a href="blog-article.html#">March 2021</a>
+                    </li>
+                    <li>
+                      <a href="blog-article.html#">February 2021</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- widget end -->
+
+
+                <!-- widget start -->
+                <div class="widget widget_recent_entries">
+                  <h5 class="widget-title">
+                    Recent Posts
+                  </h5>
+
+                  <ul>
+                    <li>
+                      <span class="post-date">May 28, 2021</span>
+                      <a data-barba href="blog-article.html">Mobile UI Design: 7 Basic Typography rules</a>
+                    </li>
+                    <li>
+                      <span class="post-date">May 22, 2021</span>
+                      <a data-barba href="blog-article.html">Graphic Design: Tips and Best Practices</a>
+                    </li>
+                    <li>
+                      <span class="post-date">April 19, 2021</span>
+                      <a data-barba href="blog-article.html">Review of Popular Web Design Trends in 2021</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- widget end -->
+
+              </aside>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+      <!-- footer start -->
+      <footer class="footer -type-1 bg-dark-1">
+        <!-- container start -->
+        <div class="container">
+
+          <div class="footer__top">
+            <!-- row start -->
+            <div class="row y-gap-48 justify-content-between">
+              <div class="col-lg-auto col-sm-12">
+                <a href="home-1.html" class="footer__logo text-white">
+                  Vinpixel.
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                <h4 class="text-xl fw-500 text-white">
+                  Address
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <p> 470 Trần Đại Nghĩa,Ngũ Hành Sơn, Đà Nẵng</p>
+                  <p class="mt-8">quantl.21it@vku.udn.vn</p>
+                  <p class="mt-8">0702172462</p>
+                </div>
+              </div>
+
+              <div class="col-lg-auto col-sm-4">
+                <h4 class="text-xl fw-500 text-white">
+                  Links
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <div><a data-barba href="blog.html" class="button -underline">Blog</a></div>
+                  <div><a data-barba href="about-1.html" class="button -underline mt-4">Abous Us</a></div>
+                  <div><a data-barba href="food.html" class="button -underline mt-4">Food</a></div>
+                  <div><a data-barba href="contacts.html" class="button -underline mt-4">Contacts</a></div>
+                </div>
+              </div>
+
+              <div class="col-lg-auto col-auto">
+                <h4 class="text-xl fw-500 text-white">
+                  Follow us
+                </h4>
+
+                <div class="social -bordered mt-16 sm:mt-12">
+                  <a class="social__item text-white border-light" href="blog-article.html#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="blog-article.html#">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="blog-article.html#">
+                    <i class="fa fa-youtube-play"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="blog-article.html#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+
+          <div class="footer__bottom -light">
+            <!-- row start -->
+            <div class="row">
+              <div class="col">
+                <div class="footer__copyright">
+                  <p class="text-light">
+                    @ 2022, Vinpixel.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+        </div>
+        <!-- container end -->
+      </footer>
+      <!-- footer end -->
+
+
+    </main>
+
+  </div>
+  <!-- barba container end -->
+
+
+  <!-- JavaScript -->
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

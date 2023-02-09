@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="icon" href="/img/favicon/favicon.ico">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Vinpixel</title>
+</head>
+
+<body class="preloader-visible" data-barba="wrapper">
+
+
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader__bg"></div>
+
+    <div class="preloader__progress">
+      <div class="preloader__progress__inner"></div>
+    </div>
+  </div>
+  <!-- preloader end -->
+
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+
+  <!-- barba container start -->
+  <div class="barba-container" data-barba="container">
+
+    <!-- to-top-button start -->
+    <div data-cursor class="backButton js-backButton">
+      <span class="backButton__bg"></span>
+      <div class="backButton__icon__wrap">
+        <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+      </div>
+    </div>
+    <!-- to-top-button end -->
+
+
+    <main class="">
+
+
+      <!-- header start -->
+      <header class="header -light -sticky-light js-header">
+        <!-- header__bar start -->
+        <div class="header__bar">
+          <div class="header__logo js-header-logo">
+            <a data-barba href="index.html">
+              <img class="header__logo__light js-lazy" data-srcset="img/logo/logo-light.png" data-src="img/logo/logo-light.png" alt="Logo">
+            </a>
+            <a data-barba href="index.html">
+              <img class="header__logo__dark js-lazy" data-srcset="img/logo/logo-dark.png" data-src="img/logo/logo-dark.png" alt="Logo">
+            </a>
+          </div>
+
+          <div class="header__menu js-header-menu">
+            <button type="button" class="nav-button-open js-nav-open">
+              <i class="icon" data-feather="menu"></i>
+            </button>
+          </div>
+        </div>
+        <!-- header__bar end -->
+
+
+        <!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+
+              <div class="nav__content">
+                <div class="nav__content__left">
+                  <div class="navList__wrap">
+                    <ul class="navList js-navList">
+                      <li>
+                        <a data-barba href="index.html">
+                          Trang chủ
+                        </a>
+                      </li>
+                      <!-- <li>
+                        <a data-barba href="how-it-work.html">
+                          How it Works
+                        </a>
+                      </li>
+                      <li>
+                        <a data-barba href="specialties.html">
+                          Specialties
+                        </a>
+                      </li> -->
+
+                      <li>
+                        <a data-barba href="user-profile.html">
+                          Thông tin người dùng
+                        </a>
+                      </li>
+
+                      <li>
+                        <a data-barba href="food.html">
+                          Vinxipel Food
+                        </a>
+                      </li>
+
+                      <li>
+                        <a data-barba href="blog.html">
+                          Blog
+                        </a>
+                      </li>
+                      <li>
+                        <a href="sign-in.html">
+                         Đăng nhập
+                        </a>
+                      </li>
+                      <li>
+                        <a href="sign-up.html">
+                          Đăng ký
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="nav__content__right">
+                  <div class="nav__info">
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Address
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <p>
+                          470 Trần Đại Nghĩa,Ngũ Hành Sơn, Đà Nẵng
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Socials
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="#">Behance</a>
+                        <a href="#">Dribbble</a>
+                        <a href="https://www.facebook.com/truon.quan.9">Facebook</a>
+                        <a href="#">Twitter</a>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Contact Us
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="#">quantl.21it@vku.udn.vn</a>
+                        <a href="#">0702172462</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
+      <!-- header end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-xl layout-pb-xs">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row">
+            <div class="col-xl-7 col-lg-8">
+              <ul class="breadcrumbs text-black">
+                <li class="breadcrumbs-item">
+                  <a data-barba href="index.html">
+                    Trang chủ
+                  </a>
+                </li>
+                <li class="breadcrumbs-item active" aria-current="page">
+                  Blogs
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-xs layout-pb-md">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row no-gutters justify-content-between">
+
+            <!-- posts start -->
+            <div class="col-lg-8">
+              <div class="row x-gap-60 y-gap-60">
+
+                <div class="col-md-6">
+                  <!-- blog-item start -->
+                  <div data-anim="slide-up" class="blogPost mb-0">
+                    <a data-barba href="blog-detail-1.html">
+                      <div class="blogPost__img -hover">
+                        <div class="bg-image ratio ratio-4:3 js-lazy" data-bg="img/blog/thumbnail/01.jpg"></div>
+                      </div>
+                    </a>
+
+                    <!-- blog-content start -->
+                    <div class="blogPost__content mt-24">
+                      <h3 class="blogPost__title text-2xl leading-lg fw-500 mt-12">
+                        <a data-barba href="blog-detail-1.html">
+                          Phở Hà Nội
+                        </a>
+                      </h3>
+
+                      <p class="blogPost__text text-base mt-8">
+                        Chẳng biết từ bao giờ, phở Hà Nội được coi là “món quà gây thương nhớ" bất cứ ai đến với mảnh đất thủ đô...
+                      </p>
+
+                      <div class="blogPost__button text-black mt-12">
+                        <a data-barba href="blog-detail-1.html" class="button -icon text-black">
+                          Read More
+                          <i class="icon size-xs str-width-md" data-feather="arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- blog-content end -->
+                  </div>
+                  <!-- blog-item end -->
+                </div>
+
+                <div class="col-md-6">
+                  <!-- blog-item start -->
+                  <div data-anim="slide-up" class="blogPost mb-0">
+                    <a data-barba href="blog-detail-2.html">
+                      <div class="blogPost__img -hover">
+                        <div class="bg-image ratio ratio-4:3 js-lazy" data-bg="img/blog/thumbnail/02.jpg"></div>
+                      </div>
+                    </a>
+
+                    <!-- blog-content start -->
+                    <div class="blogPost__content mt-24">
+                      <h3 class="blogPost__title text-2xl leading-lg fw-500 mt-12">
+                        <a data-barba href="blog-detail-2.html">
+                          Mì Quảng
+                        </a>
+                      </h3>
+
+                      <p class="blogPost__text text-base mt-8">
+                        Nếu Hà Nội nổi tiếng với phở, ẩm thực Huế gắn liền với bún bò thì người dân Quảng Nam tự hào với mì Quảng,...
+                      </p>
+
+                      <div class="blogPost__button text-black mt-12">
+                        <a data-barba href="blog-detail-2.html" class="button -icon text-black">
+                          Read More
+                          <i class="icon size-xs str-width-md" data-feather="arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- blog-content end -->
+                  </div>
+                  <!-- blog-item end -->
+                </div>
+
+                <div class="col-md-6">
+                  <!-- blog-item start -->
+                  <div data-anim="slide-up" class="blogPost mb-0">
+                    <a data-barba href="blog-detail-2.html">
+                      <div class="blogPost__img -hover">
+                        <div class="bg-image ratio ratio-4:3 js-lazy" data-bg="img/team/04.jpg"></div>
+                      </div>
+                    </a>
+
+                    <!-- blog-content start -->
+                    <div class="blogPost__content mt-24">
+                      <h3 class="blogPost__title text-2xl leading-lg fw-500 mt-12">
+                        <a data-barba href="blog-detail-2.html">
+                          Bún kèn Phú Quốc
+                        </a>
+                      </h3>
+
+                      <p class="blogPost__text text-base mt-8">
+                        Ẩm thực Phú Quốc từ lâu đã chiếm một vị trí đặc biệt trong lòng các tín đồ du lịch Việt Nam. Món bún kèn Phú Quốc - một trong những món ăn “độc nhất vô nhị”...
+                      </p>
+
+                      <div class="blogPost__button text-black mt-12">
+                        <a data-barba href="blog-detail-2.html" class="button -icon text-black">
+                          Read More
+                          <i class="icon size-xs str-width-md" data-feather="arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- blog-content end -->
+                  </div>
+                  <!-- blog-item end -->
+                </div>
+
+                <div class="col-md-6">
+                  <!-- blog-item start -->
+                  <div data-anim="slide-up" class="blogPost mb-0">
+                    <a data-barba href="blog-detail-2.html">
+                      <div class="blogPost__img -hover">
+                        <div class="bg-image ratio ratio-4:3 js-lazy" data-bg="img/team/06.jpg"></div>
+                      </div>
+                    </a>
+
+                    <!-- blog-content start -->
+                    <div class="blogPost__content mt-24">
+                      <h3 class="blogPost__title text-2xl leading-lg fw-500 mt-12">
+                        <a data-barba href="blog-detail.html">
+                          Cốm Huy Linh
+                        </a>
+                      </h3>
+
+                      <p class="blogPost__text text-base mt-8">
+                        Một món quà tuyệt vời mà thiên nhiên đã ban tặng cho người nông dân Hà Nội và đây cũng được coi là thức quà đặc sản của Thủ đô. Cốm chính là sự kết tinh của lúa non cùng với hương vị đất trời và sương sớm...
+                      </p>
+
+                      <div class="blogPost__button text-black mt-12">
+                        <a data-barba href="blog-detail.html" class="button -icon text-black">
+                          Read More
+                          <i class="icon size-xs str-width-md" data-feather="arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- blog-content end -->
+                  </div>
+                  <!-- blog-item end -->
+                </div>
+
+                <div class="col-md-6">
+                  <!-- blog-item start -->
+                  <div data-anim="slide-up" class="blogPost mb-0">
+                    <a data-barba href="blog-detail.html">
+                      <div class="blogPost__img -hover">
+                        <div class="bg-image ratio ratio-4:3 js-lazy" data-bg="img/team/08.jpg"></div>
+                      </div>
+                    </a>
+
+                    <!-- blog-content start -->
+                    <div class="blogPost__content mt-24">
+                      <h3 class="blogPost__title text-2xl leading-lg fw-500 mt-12">
+                        <a data-barba href="blog-detail.html">
+                          Bánh đa Kiện Khê
+                        </a>
+                      </h3>
+
+                      <p class="blogPost__text text-base mt-8">
+                        Khi đến Hà Nam, chúng ta không nên bỏ qua những món ăn mà chúng tôi giới thiệu dưới đây, bởi chúng không chỉ ngon mà còn mang đậm tình quê, hồn đất nơi đây...
+                      </p>
+
+                      <div class="blogPost__button text-black mt-12">
+                        <a data-barba href="blog-detail.html" class="button -icon text-black">
+                          Read More
+                          <i class="icon size-xs str-width-md" data-feather="arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- blog-content end -->
+                  </div>
+                  <!-- blog-item end -->
+                </div>
+
+                <div class="col-md-6">
+                  <!-- blog-item start -->
+                  <div data-anim="slide-up" class="blogPost mb-0">
+                    <a data-barba href="blog-detail.html">
+                      <div class="blogPost__img -hover">
+                        <div class="bg-image ratio ratio-4:3 js-lazy" data-bg="img/team/10.jpg"></div>
+                      </div>
+                    </a>
+
+                    <!-- blog-content start -->
+                    <div class="blogPost__content mt-24">
+                      <h3 class="blogPost__title text-2xl leading-lg fw-500 mt-12">
+                        <a data-barba href="blog-detail-2.html">
+                          Bánh mì que Đà Nẵng
+                        </a>
+                      </h3>
+
+                      <p class="blogPost__text text-base mt-8">
+                        Bánh mì que Đà Nẵng là một món ăn vặt vỉa hè Đà thành khiến nhiều người “mê mẩn” vì hương vị tuyệt hảo. Không quá lời khi kết luận bánh mì que chính là một trong những đại diện tiêu biểu nhất của ẩm thực nơi đây...
+                      </p>
+
+                      <div class="blogPost__button text-black mt-12">
+                        <a data-barba href="blog-detail.html-2" class="button -icon text-black">
+                          Read More
+                          <i class="icon size-xs str-width-md" data-feather="arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- blog-content end -->
+                  </div>
+                  <!-- blog-item end -->
+                </div>
+
+              </div>
+
+              <div class="blogPost-pagination mt-64">
+                <div class="blogPost-pagination__wrap">
+                  <a class="is-active" href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <span>...</span>
+                  <a href="#">6</a>
+                </div>
+              </div>
+            </div>
+            <!-- posts end -->
+
+
+            <!-- sidebar start -->
+            <div class="col-lg-4 md:mt-64">
+              <aside class="blogSidebar widget_area">
+
+                <!-- widget start -->
+                <div class="widget widget_search">
+                  <div class="">
+                    <form action="#" class="search__form">
+                      <div class="search__wrap">
+                        <input type="search" class="search__field" placeholder="Search">
+                        <button class="search__button">
+                          <i class="icon" data-feather="search"></i>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- widget end -->
+
+
+                <!-- widget start -->
+                <div class="widget widget_categories">
+                  <h5 class="widget-title">
+                    Categories
+                  </h5>
+
+                  <ul>
+                    <li>
+                      <a href="#">Process</a>
+                      (5)
+                    </li>
+                    <li>
+                      <a href="#">UX/UI</a>
+                      (4)
+                    </li>
+                    <li>
+                      <a href="#">Web</a>
+                      (16)
+                    </li>
+                    <li>
+                      <a href="#">Creative</a>
+                      (23)
+                    </li>
+                  </ul>
+                </div>
+                <!-- widget end -->
+
+
+                <!-- widget start -->
+                <div class="widget widget_archive">
+                  <h5 class="widget-title">
+                    Archive
+                  </h5>
+
+                  <ul>
+                    <li>
+                      <a href="#">May 2021</a>
+                    </li>
+                    <li>
+                      <a href="#">April 2021</a>
+                    </li>
+                    <li>
+                      <a href="#">March 2021</a>
+                    </li>
+                    <li>
+                      <a href="#">February 2021</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- widget end -->
+
+
+                <!-- widget start -->
+                <div class="widget widget_recent_entries">
+                  <h5 class="widget-title">
+                    Recent Posts
+                  </h5>
+
+                  <ul>
+                    <li>
+                      <span class="post-date">May 28, 2021</span>
+                      <a data-barba href="blog-detail.html">Mobile UI Design: 7 Basic Typography rules</a>
+                    </li>
+                    <li>
+                      <span class="post-date">May 22, 2021</span>
+                      <a data-barba href="blog-detail.html">Graphic Design: Tips and Best Practices</a>
+                    </li>
+                    <li>
+                      <span class="post-date">April 19, 2021</span>
+                      <a data-barba href="blog-detail.html">Review of Popular Web Design Trends in 2021</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- widget end -->
+
+              </aside>
+            </div>
+            <!-- sidebar end -->
+
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+      <!-- footer start -->
+      <footer class="footer -type-1 bg-dark-1">
+        <!-- container start -->
+        <div class="container">
+
+          <div class="footer__top">
+            <!-- row start -->
+            <div class="row y-gap-48 justify-content-between">
+              <div class="col-lg-auto col-sm-12">
+                <a href="index.html" class="footer__logo text-white">
+                  Vinpixel.
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                <h4 class="text-xl fw-500 text-white">
+                  Address
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <p>470 Trần Đại Nghĩa,Ngũ Hành Sơn, Đà Nẵng</p>
+                  <p class="mt-8">quantl.21it@vku.udn.vn</p>
+                  <p class="mt-8">0702172462</p>
+                </div>
+              </div>
+
+              <div class="col-lg-auto col-sm-4">
+                <h4 class="text-xl fw-500 text-white">
+                  Links
+                </h4>
+
+                <div class="footer__content text-base text-light mt-16 sm:mt-12">
+                  <div><a data-barba href="blog.html" class="button -underline">Blog</a></div>
+                  <div><a data-barba href="about-1.html" class="button -underline mt-4">Abous Us</a></div>
+                  <div><a data-barba href="food.html" class="button -underline mt-4">Food</a></div>
+                  <div><a data-barba href="contacts.html" class="button -underline mt-4">Contacts</a></div>
+                </div>
+              </div>
+
+              <div class="col-lg-auto col-auto">
+                <h4 class="text-xl fw-500 text-white">
+                  Follow us
+                </h4>
+
+                <div class="social -bordered mt-16 sm:mt-12">
+                  <a class="social__item text-white border-light" href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="#">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="#">
+                    <i class="fa fa-youtube-play"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+
+          <div class="footer__bottom -light">
+            <!-- row start -->
+            <div class="row">
+              <div class="col">
+                <div class="footer__copyright">
+                  <p class="text-light">
+                    @ 2022, Vinpixel.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+        </div>
+        <!-- container end -->
+      </footer>
+      <!-- footer end -->
+
+
+    </main>
+
+  </div>
+  <!-- barba container end -->
+
+
+  <!-- JavaScript -->
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

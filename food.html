@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Vinpixel</title>
+</head>
+
+<body class="preloader-visible" data-barba="wrapper">
+
+
+  <!-- preloader start -->
+  <div class="preloader js-preloader">
+    <div class="preloader__bg"></div>
+
+    <div class="preloader__progress">
+      <div class="preloader__progress__inner"></div>
+    </div>
+  </div>
+  <!-- preloader end -->
+
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+
+  <!-- barba container start -->
+  <div class="barba-container" data-barba="container">
+
+    <!-- to-top-button start -->
+    <div data-cursor class="backButton js-backButton">
+      <span class="backButton__bg"></span>
+      <div class="backButton__icon__wrap">
+        <i class="backButton__button js-top-button" data-feather="arrow-up"></i>
+      </div>
+    </div>
+    <!-- to-top-button end -->
+
+
+    <main class="">
+
+
+      <!-- header start -->
+      <header class="header -light -sticky-light js-header">
+        <!-- header__bar start -->
+        <div class="header__bar">
+          <div class="header__logo js-header-logo">
+            <a data-barba href="index.html">
+              <img class="header__logo__light js-lazy" data-srcset="img/logo/logo-light.png"
+                data-src="img/logo/logo-light.png" alt="Logo">
+            </a>
+            <a data-barba href="index.html">
+              <img class="header__logo__dark js-lazy" data-srcset="img/logo/logo-dark.png"
+                data-src="img/logo/logo-dark.png" alt="Logo">
+            </a>
+          </div>
+
+          <div class="header__menu js-header-menu">
+            <button type="button" class="nav-button-open js-nav-open">
+              <i class="icon" data-feather="menu"></i>
+            </button>
+          </div>
+        </div>
+        <!-- header__bar end -->
+
+
+        <!-- nav start -->
+        <nav class="nav js-nav">
+          <div class="nav__inner js-nav-inner">
+            <div class="nav__bg js-nav-bg"></div>
+
+            <div class="nav__container">
+              <div class="nav__header">
+                <button type="button" class="nav-button-back js-nav-back">
+                  <i class="icon" data-feather="arrow-left-circle"></i>
+                </button>
+
+                <button type="button" class="nav-btn-close js-nav-close pointer-events-none">
+                  <i class="icon" data-feather="x"></i>
+                </button>
+              </div>
+
+              <div class="nav__content">
+                <div class="nav__content__left">
+                  <div class="navList__wrap">
+                    <ul class="navList js-navList">
+                      <li>
+                        <a data-barba href="index.html">
+                          Trang chủ
+                        </a>
+                      </li>
+                      <!-- <li>
+                        <a data-barba href="how-it-work.html">
+                          How it Works
+                        </a>
+                      </li>
+                      <li>
+                        <a data-barba href="specialties.html">
+                          Specialties
+                        </a>
+                      </li> -->
+
+                      <li>
+                        <a data-barba href="user-profile.html">
+                          Thông tin người dùng
+                        </a>
+                      </li>
+
+                      <li>
+                        <a data-barba href="food.html">
+                          Vinpixel Food
+                        </a>
+                      </li>
+
+                      <li>
+                        <a data-barba href="blog.html">
+                          Blog
+                        </a>
+                      </li>
+                      <li>
+                        <a href="sign-in.html">
+                         Đăng nhập
+                        </a>
+                      </li>
+                      <li>
+                        <a href="sign-up.html">
+                          Đăng ký
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="nav__content__right">
+                  <div class="nav__info">
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Address
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <p>
+                          470 Trần Đại Nghĩa,Ngũ Hành Sơn, Đà Nẵng
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Socials
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="#">Behance</a>
+                        <a href="#">Dribbble</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                      </div>
+                    </div>
+
+                    <div class="nav__info__item js-navInfo-item">
+                      <h5 class="text-sm tracking-none fw-500">
+                        Contact Us
+                      </h5>
+
+                      <div class="nav__info__content text-lg text-white mt-16">
+                        <a href="#">quantl.21it@vku.udn.vn</a>
+                        <a href="#">0702172462</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </header>
+      <!-- header end -->
+
+
+      <!-- section start -->
+      <section data-anim-wrap class="layout-mt-headerBar h-md md:h-70vh">
+        <div data-anim-child="img-right cover-white delay-2" class="bg-fill-image">
+          <div data-parallax="0.7" class="h-full overlay-black-sm">
+            <div data-parallax-target class="bg-image js-lazy" data-bg="img/backgrounds/list-food.jpg"></div>
+          </div>
+        </div>
+
+        <!-- container start -->
+        <div class="container h-full">
+          <!-- row start -->
+          <div class="row align-items-center justify-content-center text-center h-full">
+            <div class="col-xl-6 col-lg-7">
+              <div data-anim-child="slide-up delay-8" class="sectionHeading -lg">
+                <h2 class="sectionHeading__title text-white">
+                  Vinpixel - Ẩm thực ba miền
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+      <!-- section start -->
+      <section class="layout-pt-xl layout-pb-lg">
+        <!-- container start -->
+        <div class="container">
+          <!-- row start -->
+          <div class="row x-gap-60 y-gap-60 layout-pt-">
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-wrap class="teamCard">
+                <div class="teamCard__img">
+                  <div data-anim-child="img-right cover-dark-1 delay-2">
+                    <a href="detail-photographer.html" class="bg-image ratio ratio-3:4 js-lazy"
+                      data-bg="img/team/01.jpg"></a>
+                  </div>
+                </div>
+
+                <div data-anim-child="fade delay-8" class="teamCard__content mt-24">
+                  <a href="detail-photographer.html" class="teamCard__title text-xl fw-600">
+                    Phở Thìn Lò Đúc Hà Nội
+                  </a>
+
+                  <p class="teamCard__text capitalize mt-4">
+                    Địa chỉ: 13 Lò Đúc, quận Hai Bà Trưng, Hà Nội <br>
+                    Giá tham khảo: 65.000 vnđ/bát
+                  </p>
+
+                  <div class="teamCard__social mt-12">
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-facebook-f"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-wrap class="teamCard">
+                <div class="teamCard__img">
+                  <div data-anim-child="img-right cover-dark-1 delay-2">
+                    <a href="detail-photographer.html" class="bg-image ratio ratio-3:4 js-lazy"
+                      data-bg="img/team/02.jpg"></a>
+                  </div>
+                </div>
+
+                <div data-anim-child="fade delay-8" class="teamCard__content mt-24">
+                  <a href="detail-photographer.html" class="teamCard__title text-xl fw-600">
+                    Bún bò O Phụng – chú Vọng
+                  </a>
+
+                  <p class="teamCard__text capitalize mt-4">
+                    Địa chỉ: số 14 Nguyễn Du, Phú Cát, Thành phố Huế, Tỉnh Thừa Thiên Huế <br>
+                    Giá tham khảo: 45.000 đồng/ bát
+                    
+                  </p>
+
+                  <div class="teamCard__social mt-12">
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-facebook-f"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-wrap class="teamCard">
+                <div class="teamCard__img">
+                  <div data-anim-child="img-right cover-dark-1 delay-2">
+                    <a href="detail-photographer.html" class="bg-image ratio ratio-3:4 js-lazy"
+                      data-bg="img/team/03.jpg"></a>
+                  </div>
+                </div>
+
+                <div data-anim-child="fade delay-8" class="teamCard__content mt-24">
+                  <a href="detail-photographer.html" class="teamCard__title text-xl fw-600">
+                    Cao lầu Không Gian Xanh Hội An
+                  </a>
+
+                  <p class="teamCard__text capitalize mt-4">
+                    Địa chỉ: Số 687 đường Hai Bà Trưng, ngay trung tâm TP. Hội An, Quảng Nam <br>
+                    Giá tham khảo: 30.000 – 50.000 VNĐ/suất
+                  </p>
+
+                  <div class="teamCard__social mt-12">
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-facebook-f"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-wrap class="teamCard">
+                <div class="teamCard__img">
+                  <div data-anim-child="img-right cover-dark-1 delay-2">
+                    <a href="detail-photographer.html" class="bg-image ratio ratio-3:4 js-lazy"
+                      data-bg="img/team/04.jpg"></a>
+                  </div>
+                </div>
+
+                <div data-anim-child="fade delay-8" class="teamCard__content mt-24">
+                  <a href="detail-photographer.html" class="teamCard__title text-xl fw-600">
+                    Quán bún kèn Út Lượm Phú Quốc
+                  </a>
+
+                  <p class="teamCard__text capitalize mt-4">
+                    Địa chỉ: 87 Đường 30/4,  Thị trấn Dương Đông, Phú Quốc <br>
+                    Giá tham khảo: 20.000đ – 25.000đ
+                  </p>
+
+                  <div class="teamCard__social mt-12">
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-facebook-f"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-wrap class="teamCard">
+                <div class="teamCard__img">
+                  <div data-anim-child="img-right cover-dark-1 delay-2">
+                    <a href="detail-photographer.html" class="bg-image ratio ratio-3:4 js-lazy"
+                      data-bg="img/team/05.jpg"></a>
+                  </div>
+                </div>
+
+                <div data-anim-child="fade delay-8" class="teamCard__content mt-24">
+                  <a href="detail-photographer.html" class="teamCard__title text-xl fw-600">
+                    Bánh đúc lá dứa - Cần Thơ
+                  </a>
+
+                  <p class="teamCard__text capitalize mt-4">
+                    Địa chỉ: 54 Trần Bình Trọng, quận Ninh Kiều, TP.Cần Thơ <br>
+                    Giá tham khảo: 20.000 VNĐ – 40.000 VNĐ/ phần
+                  </p>
+
+                  <div class="teamCard__social mt-12">
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-facebook-f"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div data-anim-wrap class="teamCard">
+                <div class="teamCard__img">
+                  <div data-anim-child="img-right cover-dark-1 delay-2">
+                    <a href="detail-photographer.html" class="bg-image ratio ratio-3:4 js-lazy"
+                      data-bg="img/team/06.jpg"></a>
+                  </div>
+                </div>
+
+                <div data-anim-child="fade delay-8" class="teamCard__content mt-24">
+                  <a href="detail-photographer.html" class="teamCard__title text-xl fw-600">
+                    Cốm Huy Linh gia truyền
+                  </a>
+
+                  <p class="teamCard__text capitalize mt-4">
+                    Địa chỉ: Đường Trần Thái Tông, Dịch Vọng Hậu, Cầu Giấy, Hà Nội <br>
+                    Giá tham khảo: 280.000đ/kg.
+                  </p>
+
+                  <div class="teamCard__social mt-12">
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-facebook-f"></i>
+                      </a>
+                    </div>
+                    <div class="teamCard__social__item">
+                      <a class="text-black" href="team.html#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row end -->
+
+          <div class="blogPost-pagination mt-64">
+            <div class="blogPost-pagination__wrap">
+              <a class="is-active" href="food.html">1</a>
+              <a href="food2.html">2</a>
+              <a href="#">3</a>
+              <span>...</span>
+              <a href="#">6</a>
+            </div>
+          </div>
+          
+        </div>
+        <!-- container end -->
+      </section>
+      <!-- section end -->
+
+
+      <section class="layout-pt-xl layout-pb-lg">
+        <div data-parallax="0.7" class="bg-fill-image overlay-black-md">
+          
+        <div id="jarallax-container-6" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;"><div data-parallax-target="" class="bg-image js-lazy loaded" style="object-fit: cover; object-position: 50% 50%; max-width: none; position: absolute; top: 0px; left: 0px; width: 771px; height: 599.1px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: -11.55px; transform: translate3d(0px, 26.3297px, 0px); background-image: url(&quot;img/backgrounds/8.jpg&quot;);" data-ll-status="loaded"></div></div></div>
+
+        <!-- container start -->
+        <div class="container">
+          <div data-cursor="" data-cursor-label="DRAG" class="overflow-hidden js-section-slider swiper-container-initialized swiper-container-horizontal swiper-container-autoheight" data-slider-col="base-1 lg-1 md-1 sm-1" data-pagination="" data-loop="">
+
+            <div class="pagination -light js-pagination pt-4 mb-48 swiper-pagination-clickable swiper-pagination-bullets"><div class="pagination__item is-active" tabindex="0" role="button" aria-label="Go to slide 1"></div><div class="pagination__item" tabindex="0" role="button" aria-label="Go to slide 2"></div><div class="pagination__item" tabindex="0" role="button" aria-label="Go to slide 3"></div><div class="pagination__item" tabindex="0" role="button" aria-label="Go to slide 4"></div><div class="pagination__item" tabindex="0" role="button" aria-label="Go to slide 5"></div></div>
+
+            <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-688px, 0px, 0px); height: 325px;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="4" style="width: 688px;">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8 col-md-10">
+                    <div class="testimonials text-center">
+                      <p class="testimonials__comment text-3xl md:text-2xl sm:text-xl fw-600 leading-xl text-white">
+                        "Every time I face the food, I tell myself: "Eat again will die!". And the results are proven: Basically I am not afraid of death!"
+                      </p>
+
+                      <div class="testimonials__author mt-48">
+                        <div class="size-xl mx-auto mb-20">
+                          <div class="bg-image rounded-full swiper-lazy swiper-lazy-loaded" style="background-image: url(&quot;img/team/6.jpg&quot;);"></div>
+                        </div>
+
+                        <h5 class="text-lg capitalize text-white fw-600">Forbes</h5>
+                        <!-- <p class="capitalize text-light">UX designer</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 688px;">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8 col-md-10">
+                    <div class="testimonials text-center">
+                      <p class="testimonials__comment text-3xl md:text-2xl sm:text-xl fw-600 leading-xl text-white">
+                        “I follow a lot of food review blogs. When they post a review of a restaurant that I'm interested in, I'll put it on a list of restaurants to visit. Blogs are a great way to find new restaurants. "                      
+                      </p>
+
+                      <div class="testimonials__author mt-48">
+                        <div class="size-xl mx-auto mb-20">
+                          <div class="bg-image rounded-full swiper-lazy swiper-lazy-loaded" style="background-image: url(&quot;img/team/2.jpg&quot;);"></div>
+                        </div>
+
+                        <h5 class="text-lg capitalize text-white fw-600">Heather K.</h5>
+                        <!-- <p class="capitalize text-light">graphic designer</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 688px;">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8 col-md-10">
+                    <div class="testimonials text-center">
+                      <p class="testimonials__comment text-3xl md:text-2xl sm:text-xl fw-600 leading-xl text-white">
+                        "I am very satisfied with Vietnamese dishes."
+                      </p>
+
+                      <div class="testimonials__author mt-48">
+                        <div class="size-xl mx-auto mb-20">
+                          <div class="bg-image rounded-full swiper-lazy swiper-lazy-loaded" style="background-image: url(&quot;img/team/3.jpg&quot;);"></div>
+                        </div>
+
+                        <h5 class="text-lg capitalize text-white fw-600">Aman C.</h5>
+                        <!-- <p class="capitalize text-light">developer</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-swiper-slide-index="2" style="width: 688px;">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8 col-md-10">
+                    <div class="testimonials text-center">
+                      <p class="testimonials__comment text-3xl md:text-2xl sm:text-xl fw-600 leading-xl text-white">
+                        "I like the website very much because of its speed, and the food here is nothing to talk about."
+                      </p>
+
+                      <div class="testimonials__author mt-48">
+                        <div class="size-xl mx-auto mb-20">
+                          <div class="bg-image rounded-full swiper-lazy" data-background="img/team/4.jpg"></div>
+                        </div>
+
+                        <h5 class="text-lg capitalize text-white fw-600">Esther K.</h5>
+                        <!-- <p class="capitalize text-light">UX designer</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide" data-swiper-slide-index="3" style="width: 688px;">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8 col-md-10">
+                    <div class="testimonials text-center">
+                      <p class="testimonials__comment text-3xl md:text-2xl sm:text-xl fw-600 leading-xl text-white">
+                        "Thank you for bringing me delicious dishes from Vietnamese culture."
+                      </p>
+
+                      <div class="testimonials__author mt-48">
+                        <div class="size-xl mx-auto mb-20">
+                          <div class="bg-image rounded-full swiper-lazy" data-background="img/team/5.jpg"></div>
+                        </div>
+
+                        <h5 class="text-lg capitalize text-white fw-600">Jared W.</h5>
+                        <!-- <p class="capitalize text-light">UX designer</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="4" style="width: 688px;">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8 col-md-10">
+                    <div class="testimonials text-center">
+                      <p class="testimonials__comment text-3xl md:text-2xl sm:text-xl fw-600 leading-xl text-white">
+                        "Every time I face the food, I tell myself: "Eat again will die!". And the results are proven: Basically I am not afraid of death!"
+                      </p>
+
+                      <div class="testimonials__author mt-48">
+                        <div class="size-xl mx-auto mb-20">
+                          <div class="bg-image rounded-full swiper-lazy swiper-lazy-loaded" style="background-image: url(&quot;img/team/6.jpg&quot;);"></div>
+                        </div>
+
+                        <h5 class="text-lg capitalize text-white fw-600">Forbes</h5>
+                        <!-- <p class="capitalize text-light">UX designer</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 688px;">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8 col-md-10">
+                    <div class="testimonials text-center">
+                      <p class="testimonials__comment text-3xl md:text-2xl sm:text-xl fw-600 leading-xl text-white">
+                        “I follow a lot of food review blogs. When they post a review of a restaurant that I'm interested in, I'll put it on a list of restaurants to visit. Blogs are a great way to find new restaurants. "                      
+                      </p>
+
+                      <div class="testimonials__author mt-48">
+                        <div class="size-xl mx-auto mb-20">
+                          <div class="bg-image rounded-full swiper-lazy swiper-lazy-loaded" style="background-image: url(&quot;img/team/2.jpg&quot;);"></div>
+                        </div>
+
+                        <h5 class="text-lg capitalize text-white fw-600">Heather K.</h5>
+                        <!-- <p class="capitalize text-light">graphic designer</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div></div>
+
+          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        </div>
+        <!-- container end -->
+      </section>
+
+
+      <!-- footer start -->
+      <footer class="footer -type-1">
+        <!-- container start -->
+        <div class="container">
+
+          <div class="footer__top">
+            <!-- row start -->
+            <div class="row y-gap-48 justify-content-between">
+              <div class="col-lg-auto col-sm-12">
+                <a href="index.html" class="footer__logo text-black">
+                  Vinpixel.
+                </a>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                <h4 class="text-xl fw-500 text-black">
+                 Address
+                </h4>
+
+                <div class="footer__content text-base text-dark mt-16 sm:mt-12">
+                  <p>470 Trần Đại Nghĩa,Ngũ Hành Sơn, Đà Nẵng</p>
+                  <p class="mt-8">quantl.21it@vku.udn.vn</p>
+                  <p class="mt-8">0702172462</p>
+                </div>
+              </div>
+
+              <div class="col-lg-auto col-sm-4">
+                <h4 class="text-xl fw-500 text-black">
+                  Links
+                </h4>
+
+                <div class="footer__content text-base text-dark mt-16 sm:mt-12">
+                  <div><a data-barba href="blog.html" class="button -underline">Blog</a></div>
+                  <div><a data-barba href="about-1.html" class="button -underline mt-4">Abous Us</a></div>
+                  <div><a data-barba href="food.html" class="button -underline mt-4">Food</a></div>
+                  <div><a data-barba href="contacts.html" class="button -underline mt-4">Contacts</a></div>
+                </div>
+              </div>
+
+              <div class="col-lg-auto col-auto">
+                <h4 class="text-xl fw-500 text-black">
+                  Follow us
+                </h4>
+
+                <div class="social -bordered mt-16 sm:mt-12">
+                  <a class="social__item text-black border-dark" href="team.html#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a class="social__item text-black border-dark" href="team.html#">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                  <a class="social__item text-black border-dark" href="team.html#">
+                    <i class="fa fa-youtube-play"></i>
+                  </a>
+                  <a class="social__item text-black border-dark" href="team.html#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+
+          <div class="footer__bottom">
+            <!-- row start -->
+            <div class="row">
+              <div class="col">
+                <div class="footer__copyright">
+                  <p class="text-dark">
+                    @ 2022, Vinpixel.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+
+        </div>
+        <!-- container end -->
+      </footer>
+      <!-- footer end -->
+
+
+    </main>
+
+  </div>
+  <!-- barba container end -->
+
+
+  <!-- JavaScript -->
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
