@@ -1,0 +1,514 @@
+author-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 10px;
+    -webkit-transition: color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: color 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  .author-content img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40px;
+            flex: 0 0 40px;
+    height: 40px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+    border-radius: 50%;
+  }
+  
+  .author-content h4 {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .portfolioCard.-type-1.-hover:hover .author-content {
+    -webkit-transform: translateX(2rem);
+            transform: translateX(2rem);
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .masthead .masthead-shapes.-group-2 .-item-1 {
+      left: -50%;
+    }
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .masthead.-type-3 .masthead__content {
+      text-align: right !important;
+    }
+  }
+  
+  .box-video {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-height: 400px;
+  }
+  
+  .box-pricing {
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .box-pricing p {
+    margin-bottom: 25px;
+  }
+  
+  .box-pricing h4 {
+    margin-bottom: 25px;
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .box-pricing h4 {
+      font-size: 22px;
+    }
+  }
+  
+  .box-pricing .box-button {
+    margin-bottom: 30px;
+  }
+  
+  .box-pricing input {
+    width: 100%;
+    padding: 5px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-bottom: 25px;
+  }
+  
+  .box-pricing .button-pricing {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .box-pricing .button-pricing:last-child {
+    margin-bottom: unset;
+  }
+  
+  .box-pricing .button-pricing span {
+    margin-left: 20px;
+  }
+  
+  .box-login {
+    padding: 40px;
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .box-login {
+      padding: 20px;
+    }
+  }
+  
+  .box-login h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .box-login h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .box-login form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .box-login form .login-action {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .box-login form .login-action .log-rem {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .box-login form .login-action .log-rem label {
+    font-size: 16px;
+    color: #454545;
+    margin-bottom: unset;
+    margin-left: 5px;
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .box-login form .login-action .log-rem label {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .box-login form .login-action .forgot-login a {
+      font-size: 12px;
+    }
+  }
+  
+  .box-login form .or-divide {
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    margin: 30px 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .box-login form .or-divide {
+      margin: 20px 0;
+    }
+  }
+  
+  .box-login form .or-divide span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9px;
+    display: inline-block;
+    background-color: #fff;
+    width: 40px;
+    margin: auto;
+    line-height: 1;
+  }
+  
+  .box-login form .btn-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .box-login form .button {
+    text-transform: uppercase;
+  }
+  
+  .box-login .custom-file-label {
+    font-size: 1.1875rem;
+    padding: 14px;
+    height: unset;
+    line-height: 1;
+  }
+  
+  .box-login .custom-file-label::after {
+    display: none;
+  }
+  
+  .box-login select {
+    width: 100%;
+    padding: 14px 10px;
+    margin-top: 14px;
+    color: #454545;
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .box-resgister form label {
+    font-size: 1.1875rem;
+    color: #454545;
+    margin-bottom: unset;
+    line-height: 1.7rem;
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .box-resgister form label {
+      font-size: 1.0625rem;
+    }
+  }
+  
+  .box-resgister form .form-radio label {
+    padding: 14px 0;
+  }
+  
+  .box-resgister form textarea {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .box-resgister form select {
+    width: 100%;
+    padding: 14px 10px;
+    color: #454545;
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-profile-section .nav-tabs {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .user-profile-section .nav-tabs .nav-link {
+    position: relative;
+    border: unset;
+    background: unset;
+    padding: .3rem 0;
+    margin: .5rem 3rem;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .user-profile-section .nav-tabs .nav-link {
+      margin: .5rem 1rem;
+    }
+  }
+  
+  .user-profile-section .nav-tabs .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    top: 100%;
+    left: 0;
+    height: 1px;
+    background-color: #ff002e;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  
+  .user-profile-section .nav-tabs .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .user-profile-section .nav-tabs .nav-link.active {
+    color: #ff002e;
+    font-weight: 700;
+  }
+  
+  .user-profile-section .nav-tabs .nav-link.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    height: 1px;
+    background-color: #ff002e;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  
+  .user-profile-section .user-content h4 {
+    margin-bottom: 25px;
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .user-profile-section .user-content h4 {
+      font-size: 22px;
+    }
+  }
+  
+  .user-profile-section .user-content .table tr:first-child th, .user-profile-section .user-content .table tr:first-child td {
+    border-top: unset;
+  }
+  
+  .user-profile-section .user-content .order .pwe-heading {
+    margin-bottom: 10px;
+  }
+  
+  .user-profile-section .user-content .order .table {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .user-profile-section .user-content .order .table th {
+    border-top: unset;
+    font-weight: 700;
+  }
+  
+  .user-profile-section .user-content .order .table .text-green {
+    color: #00dd00;
+  }
+  
+  .user-profile-section .user-content .order .table .text-red {
+    color: red;
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .user-profile-section .user-content .order .table-mobile thead {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .user-profile-section .user-content .order .table-mobile tr {
+      padding: unset;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      display: block;
+      border: unset;
+      border-bottom: 2px solid #000;
+    }
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .user-profile-section .user-content .order .table-mobile tr td {
+      padding-left: 40% !important;
+      display: block;
+      text-align: right !important;
+      position: relative;
+      max-width: unset;
+    }
+    .user-profile-section .user-content .order .table-mobile tr td:first-child {
+      border-top: unset;
+    }
+    .user-profile-section .user-content .order .table-mobile tr td::before {
+      content: attr(data-label);
+      left: 0;
+      width: 35%;
+      text-align: left;
+      position: absolute;
+      font-size: 16px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      font-weight: 700;
+      height: 100%;
+      padding: 10px;
+    }
+  }
+  
+  .user-profile-section .user-content .package .box-content {
+    margin-bottom: 25px;
+  }
+  
+  .user-profile-section .user-content .package .box-content h4 {
+    margin-bottom: unset;
+  }
+  
+  .user-profile-section .user-content .package .modal {
+    top: 100px;
+  }
+  
+  .user-profile-section .user-content .package .modal .modal-body label {
+    font-size: 1.1875rem;
+    margin-bottom: unset;
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .user-profile-section .user-content .package .modal .modal-body label {
+      font-size: 1.0625rem;
+    }
+  }
+  
+  .user-profile-section .user-content .package .modal .modal-body select {
+    width: 100%;
+    font-size: 1.1875rem;
+    padding: 14px 10px;
+    color: #454545;
+    margin-top: 14px;
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  @media screen and (max-width: 575.82px) {
+    .user-profile-section .user-content .package .modal .modal-body select {
+      font-size: 1.0625rem;
+    }
+  }
+  
+  .user-profile-section .user-content .package .modal .modal-footer {
+    border-top: unset;
+  }
+  
+  .user-profile-section .user-content .my-photo {
+    position: relative;
+    width: 100%;
+  }
+  
+  .user-profile-section .user-content .my-photo .masonry .masonry__item {
+    float: left;
+  }
+  
+  .user-profile-section .user-content .booking .fc-daygrid-body {
+    width: 100% !important;
+  }
+  
+  .user-profile-section .user-content .booking .fc-scrollgrid-section table {
+    width: 100% !important;
+  }
+  
+  .user-profile-section .user-content .booking .fc-toolbar-chunk .fc-next-button, .user-profile-section .user-content .booking .fc-toolbar-chunk .fc-prev-button {
+    background-color: unset;
+    border: unset;
+    color: #000;
+  }
+  
+  .user-profile-section .user-content .booking .fc-toolbar-chunk .fc-today-button {
+    background: #000 !important;
+  }
+  
+  .user-profile-section .user-content .booking .fc-daygrid-bg-harness {
+    cursor: pointer;
+  }
+  
+  .user-profile-section .user-content .booking .modal .modal-body {
+    padding: 2rem;
+  }
+  
+  .user-profile-section .user-content .booking .modal .modal-body .event-body table {
+    text-transform: capitalize;
+  }
+  
+  .user-profile-section .user-content .booking .modal .modal-body .event-body table td {
+    padding-left: 15px;
+  }
+  
+  .package-calendar .fc-daygrid-body {
+    width: 100% !important;
+  }
+  
+  .package-calendar .fc-scrollgrid-section table {
+    width: 100% !important;
+  }
+  
+  .package-calendar .fc-toolbar-chunk .fc-next-button, .package-calendar .fc-toolbar-chunk .fc-prev-button {
+    background-color: unset;
+    border: unset;
+    color: #000;
+  }
+  
+  .package-calendar .fc-toolbar-chunk .fc-today-button {
+    background: #000 !important;
+  }
+  
+  .package-calendar .fc-daygrid-bg-harness {
+    cursor: pointer;
+  }
+  
+  .package-calendar .fc-daygrid-day-events {
+    display: none;
+  }
+  /*# sourceMappingURL=custom.css.map */
